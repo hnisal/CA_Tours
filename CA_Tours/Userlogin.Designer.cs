@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmlogin));
-            this.lblblue = new System.Windows.Forms.Label();
+            this.lblbluelogin = new System.Windows.Forms.Label();
             this.picboxlogin = new System.Windows.Forms.PictureBox();
             this.lbllogin = new System.Windows.Forms.Label();
             this.txtusername = new System.Windows.Forms.TextBox();
@@ -42,20 +42,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.picboxpassword)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblblue
+            // lblbluelogin
             // 
-            this.lblblue.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.lblblue.Location = new System.Drawing.Point(196, 137);
-            this.lblblue.Name = "lblblue";
-            this.lblblue.Size = new System.Drawing.Size(630, 452);
-            this.lblblue.TabIndex = 0;
+            this.lblbluelogin.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.lblbluelogin.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblbluelogin.Location = new System.Drawing.Point(363, 29);
+            this.lblbluelogin.Name = "lblbluelogin";
+            this.lblbluelogin.Size = new System.Drawing.Size(630, 455);
+            this.lblbluelogin.TabIndex = 0;
             // 
             // picboxlogin
             // 
             this.picboxlogin.BackColor = System.Drawing.SystemColors.HotTrack;
             this.picboxlogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picboxlogin.BackgroundImage")));
             this.picboxlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picboxlogin.Location = new System.Drawing.Point(472, 193);
+            this.picboxlogin.Location = new System.Drawing.Point(632, 105);
             this.picboxlogin.Name = "picboxlogin";
             this.picboxlogin.Size = new System.Drawing.Size(98, 82);
             this.picboxlogin.TabIndex = 1;
@@ -67,7 +68,7 @@
             this.lbllogin.BackColor = System.Drawing.SystemColors.HotTrack;
             this.lbllogin.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbllogin.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lbllogin.Location = new System.Drawing.Point(440, 278);
+            this.lbllogin.Location = new System.Drawing.Point(599, 190);
             this.lbllogin.Name = "lbllogin";
             this.lbllogin.Size = new System.Drawing.Size(158, 36);
             this.lbllogin.TabIndex = 5;
@@ -77,7 +78,7 @@
             // 
             this.txtusername.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusername.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.txtusername.Location = new System.Drawing.Point(380, 350);
+            this.txtusername.Location = new System.Drawing.Point(551, 268);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(271, 26);
             this.txtusername.TabIndex = 2;
@@ -87,7 +88,7 @@
             // 
             this.txtpassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpassword.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.txtpassword.Location = new System.Drawing.Point(380, 403);
+            this.txtpassword.Location = new System.Drawing.Point(551, 320);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(271, 26);
             this.txtpassword.TabIndex = 3;
@@ -99,7 +100,7 @@
             this.picboxusername.BackColor = System.Drawing.SystemColors.HotTrack;
             this.picboxusername.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picboxusername.BackgroundImage")));
             this.picboxusername.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picboxusername.Location = new System.Drawing.Point(348, 350);
+            this.picboxusername.Location = new System.Drawing.Point(519, 268);
             this.picboxusername.Name = "picboxusername";
             this.picboxusername.Size = new System.Drawing.Size(26, 26);
             this.picboxusername.TabIndex = 6;
@@ -110,7 +111,7 @@
             this.picboxpassword.BackColor = System.Drawing.SystemColors.HotTrack;
             this.picboxpassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picboxpassword.BackgroundImage")));
             this.picboxpassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picboxpassword.Location = new System.Drawing.Point(348, 406);
+            this.picboxpassword.Location = new System.Drawing.Point(519, 320);
             this.picboxpassword.Name = "picboxpassword";
             this.picboxpassword.Size = new System.Drawing.Size(26, 26);
             this.picboxpassword.TabIndex = 7;
@@ -122,7 +123,7 @@
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnlogin.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.Color.White;
-            this.btnlogin.Location = new System.Drawing.Point(380, 487);
+            this.btnlogin.Location = new System.Drawing.Point(551, 389);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(271, 30);
             this.btnlogin.TabIndex = 4;
@@ -135,7 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1016, 733);
+            this.ClientSize = new System.Drawing.Size(1016, 683);
             this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.picboxpassword);
             this.Controls.Add(this.picboxusername);
@@ -143,7 +144,7 @@
             this.Controls.Add(this.txtusername);
             this.Controls.Add(this.lbllogin);
             this.Controls.Add(this.picboxlogin);
-            this.Controls.Add(this.lblblue);
+            this.Controls.Add(this.lblbluelogin);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
@@ -162,7 +163,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblblue;
+        private System.Windows.Forms.Label lblbluelogin;
         private System.Windows.Forms.PictureBox picboxlogin;
         private System.Windows.Forms.Label lbllogin;
         private System.Windows.Forms.TextBox txtusername;
