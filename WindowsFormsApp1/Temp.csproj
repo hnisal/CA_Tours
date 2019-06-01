@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A4AC2FDA-D1DF-41D2-A5B7-F05364C1272F}</ProjectGuid>
+    <ProjectGuid>{64392878-4DD0-4673-AA8F-41CAC6250F73}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CA_Tours</RootNamespace>
-    <AssemblyName>CA_Tours</AssemblyName>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,53 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dashboard Cashier.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard Cashier.Designer.cs">
-      <DependentUpon>Dashboard Cashier.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard Clark.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard Clark.Designer.cs">
-      <DependentUpon>Dashboard Clark.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Dashboard Manager.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Dashboard Manager.Designer.cs">
-      <DependentUpon>Dashboard Manager.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Userlogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Userlogin.Designer.cs">
-      <DependentUpon>Userlogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Dashboard Cashier.resx">
-      <DependentUpon>Dashboard Cashier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard Clark.resx">
-      <DependentUpon>Dashboard Clark.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard Manager.resx">
-      <DependentUpon>Dashboard Manager.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Userlogin.resx">
-      <DependentUpon>Userlogin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
