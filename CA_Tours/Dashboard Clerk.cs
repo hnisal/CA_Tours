@@ -21,5 +21,47 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void DashboardCashier_Load(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
     }
 }

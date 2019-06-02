@@ -16,5 +16,10 @@ namespace CA_Tours
         {
             InitializeComponent();
         }
+
+        private void Frmlogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

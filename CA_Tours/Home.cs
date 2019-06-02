@@ -21,5 +21,10 @@ namespace CA_Tours
         {
 
         }
+
+        private void LblCATours_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

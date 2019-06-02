@@ -52,11 +52,11 @@
     <Compile Include="Dashboard Cashier.Designer.cs">
       <DependentUpon>Dashboard Cashier.cs</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard Clark.cs">
+    <Compile Include="Dashboard Clerk.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard Clark.Designer.cs">
-      <DependentUpon>Dashboard Clark.cs</DependentUpon>
+    <Compile Include="Dashboard Clerk.Designer.cs">
+      <DependentUpon>Dashboard Clerk.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard Manager.cs">
       <SubType>Form</SubType>
@@ -81,8 +81,8 @@
     <EmbeddedResource Include="Dashboard Cashier.resx">
       <DependentUpon>Dashboard Cashier.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard Clark.resx">
-      <DependentUpon>Dashboard Clark.cs</DependentUpon>
+    <EmbeddedResource Include="Dashboard Clerk.resx">
+      <DependentUpon>Dashboard Clerk.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard Manager.resx">
       <DependentUpon>Dashboard Manager.cs</DependentUpon>

@@ -35,6 +35,7 @@
             this.btncashier = new System.Windows.Forms.Button();
             this.btnclerk = new System.Windows.Forms.Button();
             this.picboxhome = new System.Windows.Forms.PictureBox();
+            this.lblCATours = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picboxhome)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,18 +46,19 @@
             this.lblbluehome.Name = "lblbluehome";
             this.lblbluehome.Size = new System.Drawing.Size(630, 455);
             this.lblbluehome.TabIndex = 0;
+            this.lblbluehome.Visible = false;
             // 
             // lblhome
             // 
             this.lblhome.AutoSize = true;
             this.lblhome.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.lblhome.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhome.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblhome.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblhome.Location = new System.Drawing.Point(639, 190);
+            this.lblhome.Location = new System.Drawing.Point(671, 115);
             this.lblhome.Name = "lblhome";
-            this.lblhome.Size = new System.Drawing.Size(91, 36);
+            this.lblhome.Size = new System.Drawing.Size(144, 59);
             this.lblhome.TabIndex = 5;
-            this.lblhome.Text = "HOME";
+            this.lblhome.Text = "Home";
             // 
             // btnmanager
             // 
@@ -65,9 +67,9 @@
             this.btnmanager.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnmanager.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmanager.ForeColor = System.Drawing.Color.White;
-            this.btnmanager.Location = new System.Drawing.Point(554, 269);
+            this.btnmanager.Location = new System.Drawing.Point(554, 258);
             this.btnmanager.Name = "btnmanager";
-            this.btnmanager.Size = new System.Drawing.Size(271, 30);
+            this.btnmanager.Size = new System.Drawing.Size(271, 39);
             this.btnmanager.TabIndex = 4;
             this.btnmanager.Text = "MANAGER";
             this.btnmanager.UseVisualStyleBackColor = false;
@@ -79,9 +81,9 @@
             this.btncashier.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btncashier.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncashier.ForeColor = System.Drawing.Color.White;
-            this.btncashier.Location = new System.Drawing.Point(554, 333);
+            this.btncashier.Location = new System.Drawing.Point(554, 326);
             this.btncashier.Name = "btncashier";
-            this.btncashier.Size = new System.Drawing.Size(271, 30);
+            this.btncashier.Size = new System.Drawing.Size(271, 39);
             this.btncashier.TabIndex = 4;
             this.btncashier.Text = "CASHIER";
             this.btncashier.UseVisualStyleBackColor = false;
@@ -95,9 +97,9 @@
             this.btnclerk.ForeColor = System.Drawing.Color.White;
             this.btnclerk.Location = new System.Drawing.Point(554, 392);
             this.btnclerk.Name = "btnclerk";
-            this.btnclerk.Size = new System.Drawing.Size(271, 30);
+            this.btnclerk.Size = new System.Drawing.Size(271, 39);
             this.btnclerk.TabIndex = 4;
-            this.btnclerk.Text = "RESERVATION CLERK";
+            this.btnclerk.Text = "RESERVATION  CLERK";
             this.btnclerk.UseVisualStyleBackColor = false;
             // 
             // picboxhome
@@ -105,11 +107,25 @@
             this.picboxhome.BackColor = System.Drawing.SystemColors.HotTrack;
             this.picboxhome.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picboxhome.BackgroundImage")));
             this.picboxhome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picboxhome.Location = new System.Drawing.Point(632, 105);
+            this.picboxhome.Location = new System.Drawing.Point(554, 95);
             this.picboxhome.Name = "picboxhome";
-            this.picboxhome.Size = new System.Drawing.Size(98, 82);
+            this.picboxhome.Size = new System.Drawing.Size(123, 101);
             this.picboxhome.TabIndex = 6;
             this.picboxhome.TabStop = false;
+            // 
+            // lblCATours
+            // 
+            this.lblCATours.AutoSize = true;
+            this.lblCATours.BackColor = System.Drawing.Color.Transparent;
+            this.lblCATours.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblCATours.Font = new System.Drawing.Font("Monotype Corsiva", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCATours.ForeColor = System.Drawing.Color.Maroon;
+            this.lblCATours.Location = new System.Drawing.Point(144, 568);
+            this.lblCATours.Name = "lblCATours";
+            this.lblCATours.Size = new System.Drawing.Size(730, 117);
+            this.lblCATours.TabIndex = 7;
+            this.lblCATours.Text = "C A Lanka Travels ";
+            this.lblCATours.Click += new System.EventHandler(this.LblCATours_Click);
             // 
             // frmhome
             // 
@@ -119,6 +135,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1016, 683);
+            this.Controls.Add(this.lblCATours);
             this.Controls.Add(this.picboxhome);
             this.Controls.Add(this.btnclerk);
             this.Controls.Add(this.btncashier);
@@ -132,7 +149,7 @@
             this.MaximizeBox = false;
             this.Name = "frmhome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "C A Lanka Travels";
+            this.Text = "Home";
             this.Load += new System.EventHandler(this.Home_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picboxhome)).EndInit();
             this.ResumeLayout(false);
@@ -148,5 +165,6 @@
         private System.Windows.Forms.Button btncashier;
         private System.Windows.Forms.Button btnclerk;
         private System.Windows.Forms.PictureBox picboxhome;
+        private System.Windows.Forms.Label lblCATours;
     }
 }
